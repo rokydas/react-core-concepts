@@ -155,7 +155,7 @@ function Users(){
       <h3>Dynamic Users: {users.length}</h3>
       <ul>
         {
-          users.map(user => <li>{user.name}</li>)
+          users.map(user => <li>{user.name} - {user.email}</li>)
         }
       </ul>
     </div>
